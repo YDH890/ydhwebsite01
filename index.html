@@ -10,28 +10,45 @@
   <meta name="generator" content="HTML5">
   <title>Intro</title>
   <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="사이트 이름을 적으세요." />
-  <meta property="og:title" content="타이틀 이름을 적으세요." />
-  <meta property="og:description" content="자신의 사이트에 대한 세부 설명을 적으세요." />
+  <meta property="og:site_name" content="윤다희의 포트폴리오" />
+  <meta property="og:title" content="Intro" />
+  <meta property="og:description" content="윤다희의 GDD, UXUI디자인, 레벨디자인 등 그외 모든 게임기획서 모음" />
   <meta property="og:image" content="./images/name_seo.png" />
   <!-- 아텐츠주소 대신 자신의 웹페이지 주소로 바꾸세요 -->
-  <meta property="og:url" content="https://ydhwebsite01.com" />
+  <meta property="og:url" content="https://ydhwebsite01.netlify.app" />
   <meta property="twitter:card" content="summary" />
-  <meta property="twitter:site" content="사이트 이름을 적으세요." />
-  <meta property="twitter:title" content="타이틀 이름을 적으세요." />
-  <meta property="twitter:description" content="자신의 사이트에 대한 세부 설명을 적으세요." />
+  <meta property="twitter:site" content="윤다희의 포트폴리오" />
+  <meta property="twitter:title" content="Intro" />
+  <meta property="twitter:description" content="윤다희의 GDD, UXUI디자인, 레벨디자인 등 그외 모든 게임기획서 모음" />
   <meta property="twitter:image" content="./images/name_seo.png" />
   <!-- 아텐츠주소 대신 자신의 웹페이지 주소로 바꾸세요 -->
-  <meta property="twitter:url" content="https://ydhwebsite01.com" />
+  <meta property="twitter:url" content="https://ydhwebsite01.netlify.app" />
   <link rel="icon" href="/favicon.ico" />
   <link rel="stylesheet" href="./main.css">
+  <!-- ./을 쓰면index.html의 주위에 있는 main.css를 가져온다는 말-->
+  <!-- <link rel="stylesheet" href="/main.css"> (ctrl+/하면 어느 언어든 자동 주석 달림)-->
+  <!-- <script defer src="/main.js"></script> -->
   <script defer src="./main.js"></script>
+  <!-- defer = 자바스크립트 body를 다 읽을때까지 html 실행 대기-->
 </head>
 
 <body>
-  <canvas id="canvas"></canvas>
-
-  <a class="portfolio-link" href="/pages/mainpage.html">MY PORTFOLIO</a>
+  <!-- <canvas id="canvas"></canvas> -->
+  <div style="position: fixed; z-index: -1; width: 100%; height: 100%;">
+    <!-- Z축 -면 화면 밖으로 나오는 느낌이다, division영역 전체활용. -->
+    <iframe width="100%" height="100%"
+    src="https://www.youtube.com/embed/ot7uXNQskhs?si=-DV9xYfkc07LnRdB&autoplay=1&loop=1&mute=1&playlist=ot7uXNQskhs"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+    </iframe>
+    <!-- iframe src : 유튜브 트레일러 퍼가기 복붙, 링크 뒤에 ?는 명령어(1개만 사용),
+      0,1은 거짓, 참. a&b면 ab 모두 실행. 여기서는 자동, 반복재생, 무음, 플레이할 영상링크 적음 -->
+  </div>
+  <div>
+    <a class="portfolio-link" href="/pages/mainpage.html">윤다희의 포트폴리오</a>
+  </div>
 </body>
 
 
