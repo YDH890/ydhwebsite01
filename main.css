@@ -27,6 +27,8 @@ canvas {
   color: #ffff00;
   text-decoration: none;
   font-size: 28px;
+  /* z-index: 1; */
+
 } 
 /* intro 사이트 좌측 하단 '윤다희의 포트폴리오' 관련 내용임. 이런식으로 UI 버튼 조정도 가능
 UI 디자이너한테 UI 위치를 강력하게 요구하고 싶을 때 구체적으로 적으면 좋다. 단위는 px로 통일 */
